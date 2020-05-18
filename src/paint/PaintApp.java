@@ -7,6 +7,14 @@ public class PaintApp {
 		point1.setX(10);
 		point1.setY(20);
 		drawPoint(point1);
+		//point1.disappear();
+		point1.show(false);
+		
+		Point point2 = new Point(100, 200);
+		drawPoint(point2);
+		
+		
+		
 	}
 
 	private static void drawPoint(Point point) {
