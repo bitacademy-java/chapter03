@@ -8,6 +8,10 @@ public class Song {
 	private int year;
 	private int track;
 	
+	public Song(){
+		System.out.println("Song() called");
+	}
+	
 	public String getTitle() {
 		return title;
 	}
