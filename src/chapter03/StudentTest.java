@@ -2,7 +2,7 @@ package chapter03;
 
 import person.Student;
 
-public class Studenttest {
+public class StudentTest {
 
 	public static void main(String[] args) {
 		Student s = new Student();
