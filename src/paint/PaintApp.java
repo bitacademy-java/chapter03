@@ -22,6 +22,16 @@ public class PaintApp {
 		
 		point3.show(false);
 		point3.show(true);
+		
+		//=====================================
+		Shape shape1 = new Triangle();
+		//drawTriangle(triangle);
+		draw(shape1);
+		
+		Shape shape2 = new Rectangle();
+		draw(shape2);
+		
+		draw(new Circle());
 	}
 
 	private static void drawPoint(Point point) {
@@ -30,6 +40,18 @@ public class PaintApp {
 	
 //	private static void drawColorPoint(ColorPoint point) {
 //		point.show();
+//	}
+
+	private static void draw(Shape shape) {
+		shape.draw();
+	}
+	
+//	private static void drawTriangle(Triangle triangle) {
+//		triangle.draw();
+//	}
+//
+//	private static void drawRectangle(Rectangle rectangle) {
+//		rectangle.draw();
 //	}
 	
 }
