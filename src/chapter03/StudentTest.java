@@ -1,5 +1,6 @@
 package chapter03;
 
+import person.Person;
 import person.Student;
 
 public class StudentTest {
@@ -20,7 +21,8 @@ public class StudentTest {
 		// public는 어디서든 접근 가능(접근하지 않음)
 		s.major = "computer science";
 		
-
+		
+		Person p = s;             // upcasting(암시적)
+		Student s2 = (Student)p;  // downcasting(명시적)
 	}
-
 }
